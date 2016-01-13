@@ -7,6 +7,8 @@ gem 'devise_security_extension'
 gem 'oauth2', '~> 1.0'
 gem 'omniauth', '~> 1.3', '>= 1.3.1'
 
+#private messaging
+gem 'private_messages'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass'
 gem 'sass-rails'
