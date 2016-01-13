@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Community</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
+	<head>
+  	<title>Community</title>
+  	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  	<%= csrf_meta_tags %>
+	</head>
+
 <body>
-
-<%= yield %>
-
+	<div class="container" id="backmain">
+<img src="https://i.gyazo.com/0e866e239a850176778e44c350d501c3.png" id="logo">
+<img src="https://i.gyazo.com/7add3f619010c22232a8bb8ce81a4a63.png" id="banner">
+		<%= yield %>
+	</div>
 </body>
 </html>
