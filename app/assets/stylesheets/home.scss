@@ -7,9 +7,16 @@
 #index-header {
 	color: white;
 	text-align: center;
-	text-decoration: underline;
-	font-weight: bolder;
-	font-size: 3em;
+	font-family: 'header';
+	font-size: 6.6em;
+}
+
+#dayslat {
+  font-family: 'dayslater';
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  text-align:center;
 }
 #banner {
 	width: 100%;
@@ -20,4 +27,9 @@
 	width: 150px;
 	height: 120px;
 	padding-top: 0.5%;
+}
+#paragraph {
+	font-family: 'paragraph';
+	font-size: 1.3em;
+	color: white;
 }
